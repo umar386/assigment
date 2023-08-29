@@ -1,0 +1,48 @@
+p{
+    background-color: rgb(114,92,173);
+    color: whitesmoke;
+}
+section{
+    border: 3px solid black;
+    margin:10px;
+    padding:5px;
+}
+h1,h2{
+    font-family: Arial,Helvetica,sans-serif;
+    background-color: rgb(158,138,158);
+    color:black;
+    padding:5px;
+}
+.container{
+    font-family:'arial';
+    color:whitesmoke;
+    padding:5px;
+}	
+table{
+    table-layout:fixed;
+    width:100%;
+    border-collapse:collapse;
+    border:3px solid hotpink;
+    max-width:600px;
+    }
+    th{
+    letter-spacing:2px;
+    }
+    
+    td{
+    letter-spacing:1px;
+    text-align:center;
+    }
+    
+    tfoot td{
+    text-align:left;
+    }
+    thead, tfoot {
+        background: hotpink;
+        color: black;
+        text-shadow: 1px 1px 1px black;
+        }
+        tr:nth-of-type(2n) {
+        background:rgb(240, 172, 206);
+        }
+        @media screen{1024*980}
